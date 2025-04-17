@@ -8,9 +8,10 @@ import { reducer as adminProductReducer } from "./AdminProductReducer/reducer";
 import { reducer as usersReducer } from "./UsersReducer/reducer";
 import {reducer as authreducer} from "./auth/reducer"
 import { reducer as orderReducer } from "./OrderReducer/reducer";
-import { reducer as ProductReducer } from "./product/reducer";
+import { reducer as ProductReducer } from "./Product/reducer";
 import { reducer as CartReducer } from "./Cart/reducer";
 import { reducer as productReducer } from "./ProductReducer/reducer";
+
 import thunk from "redux-thunk";
 
 const root_reducer = combineReducers({

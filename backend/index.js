@@ -19,12 +19,12 @@ app.get("/movie", (req, res) => {
   res.status(200).send("Movie data");
 });
 
-app.listen(5050, async () => {
+app.listen(8070, async () => {
   try {
     await connection;
     console.log("connected to db");
   } catch (error) {
     console.log(error);
   }
-  console.log("Server is runing at 5050");
+  console.log("Server is runing at 8070");
 });
